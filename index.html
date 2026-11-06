@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta name="automethods-account" content="required">
+  <link rel="canonical" href="https://automethods.com/projects/cea/">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="KEA: моделювання пасажирських перевезень, витрат енергії, складу автопарку та експлуатаційних параметрів.">
+  <title>CEA – Commercial Vehicle Operation</title>
+  <link rel="icon" href="assets/favicon.svg?v=48ac4c9702c7" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/leaflet.css?v=a78371028241"><link rel="stylesheet" href="assets/mybooks.css?v=f0d575caea80"><link rel="stylesheet" href="assets/cea.css?v=8cb3befa8ea3">
+</head>
+<body>
+<a class="skip-link" href="#content">До розрахунку</a>
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="institution-hierarchy"><details class="institution-group"><summary class="brand"><img src="assets/logo.svg?v=09453c1d1f9d" alt=""><span><small>Заклад освіти</small><strong>Житомирський агротехнічний фаховий коледж</strong></span></summary><div class="institution-children"><a href="https://zhatk.zt.ua/" target="_blank" rel="noopener">Офіційний сайт закладу ↗</a><a class="brand department-brand" href="https://zhatk.zt.ua/osvitnij-proczes/kafedri/kafedra-avtomobilnij-transport/" target="_blank" rel="noopener"><span><small>Кафедра</small><strong>Автомобільний транспорт ↗</strong></span></a></div></details><a class="worksheet-home" href="#intro">інтерактивні методичні рекомендації</a></div>
+    <div class="project-name"><strong>KEA</strong><span>Комерційна експлуатація<br> автомобілів</span></div>
+    <nav aria-label="Розділи KEA">
+      <p class="nav-group">Проєкт і вихідні дані</p>
+      <a href="#scenario-context" class="active"><b>1</b>Маршрут і парк</a>
+      <a href="#vehicles"><b>2</b>Вихідні дані для проєктування</a>
+      <a href="#route"><b>3</b>Параметри маршруту</a>
+      <p class="nav-group">Розрахунок перевезень</p>
+      <a href="#fleet"><b>4</b>Розклад і завантаження</a>
+      <a href="#energy"><b>5</b>Енергія та витрати перевезень</a>
+      <a href="#trace"><b>5.3</b>Перевірка за вимірюваннями</a>
+      <p class="nav-group">Додатки</p>
+      <a href="#sources"><b>6</b>Методика й припущення</a>
+      <a href="#references"><b>7</b>Список використаної літератури</a>
+    </nav>
+    <p class="sidebar-note">Спільний каталог MyBooks.<br>Власні сценарії KEA.<br>Навчальний прототип 0.15.12.</p>
+  </aside>
+  <main class="main">
+    <header class="topbar"><a href="/">← AutoMethods</a><span id="save-status" role="status">Завантаження спільних даних…</span><span>KEA <b>0.15.12</b></span></header>
+    <p class="publication-access"><span id="access-notice" role="status">Перевіряємо обліковий запис…</span> <a id="account-link" href="/?account=signin" hidden>Увійти</a></p>
+    <div class="action-row project-actions" hidden>
+      <button class="button" id="real-example">Житомир · автобус 53</button>
+      <button class="button" id="demo">Синтетичний приклад</button>
+      <button class="button" id="undo" disabled>Скасувати · Undo</button>
+      <button class="button" id="redo" disabled>Повторити · Redo</button>
+      <button class="button" id="open">Відкрити JSON</button>
+      <button class="button button-primary" id="save">Зберегти JSON</button>
+      <button class="button" id="print">Друк / PDF</button>
+    </div>
+    <div id="fatal" class="error" role="alert" hidden></div>
+    <div id="content"><p>Завантажуємо маршрут і каталог автомобілів…</p></div>
+    <section class="section no-print publication-actions" aria-label="Збереження розрахунку"><h2>Збереження розрахунку</h2><div class="action-row"><button class="button" data-publication-command="open" disabled>Відкрити JSON</button><button class="button button-primary" data-publication-command="save" disabled>Зберегти JSON</button><button class="button" data-publication-command="print" disabled>Друк / PDF</button></div></section>
+  </main>
+</div>
+<input id="open-file" type="file" accept=".json,application/json" hidden>
+<input id="engine-characteristic-file" type="file" accept=".csv,text/csv" hidden>
+<input id="trace-file" type="file" accept=".csv,text/csv" hidden>
+<input id="route-file" type="file" accept=".json,application/json" hidden>
+<input id="road-profile-file" type="file" accept=".csv,text/csv" hidden>
+<input id="demand-file" type="file" accept=".csv,text/csv" hidden>
+<dialog id="route-dialog" aria-labelledby="route-import-title"><h2 id="route-import-title">Завантаження існуючого маршруту</h2><div id="route-import-body"></div><div class="action-row"><button class="button" id="cancel-route">Скасувати</button><button class="button button-primary" id="apply-route">Завантажити маршрут</button></div></dialog>
+<dialog id="refresh-dialog" aria-labelledby="refresh-title"><h2 id="refresh-title">Оновлення спільних даних</h2><div id="refresh-body"></div><div class="action-row"><button class="button" id="cancel-refresh">Залишити збережені дані</button><button class="button button-primary" id="apply-refresh">Застосувати переглянуте оновлення</button></div></dialog>
+<div id="toast" role="status" hidden></div>
+<script type="module" src="assets/app.js?v=5ab0ae92892e"></script>
+</body>
+</html>

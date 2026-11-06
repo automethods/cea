@@ -1,0 +1,17 @@
+{
+  "format": "cea-fuel-prices/2",
+  "asOf": "2026-10-29",
+  "retrievedAt": "2026-10-29T17:09:31.733Z",
+  "currency": "UAH",
+  "unit": "UAH/L",
+  "region": "Україна",
+  "prices": {
+    "petrol": 90.09,
+    "diesel": 104.27
+  },
+  "source": {
+    "title": "Мінфін. Середні ціни на пальне по Україні (дані Консалтингової групи А-95)",
+    "url": "https://index.minfin.com.ua/ua/markets/fuel/",
+    "sha256": "2950b51440e63e521306b8e961ca6c2a4370a4d6cd05a80fde6f9a1451a26835"
+  }
+}

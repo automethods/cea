@@ -1,0 +1,15 @@
+{
+  "format": "cea-exchange-rates/1",
+  "asOf": "2026-10-26",
+  "retrievedAt": "2026-10-26T10:21:21.285Z",
+  "rates": {
+    "UAH": 1,
+    "EUR": 50.5766,
+    "USD": 45.2021
+  },
+  "source": {
+    "title": "Національний банк України. Офіційний курс гривні щодо іноземних валют",
+    "url": "https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?date=20261026&json",
+    "sha256": "f27b3b67f98be25fe073ea9605bb795f27c63101f2c80d34a73c1c33c9f4e243"
+  }
+}

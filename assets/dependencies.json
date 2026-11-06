@@ -1,0 +1,94 @@
+{
+  "sharedUi": {
+    "schema": "mybooks-ui-shell/1",
+    "version": "0.1.0",
+    "files": {
+      "assets/book.css": {
+        "sha256": "f0d575caea806ec133b992dfbafcd3cbfdff6d38e9f1e313668d1a522043dd40",
+        "initialSource": "TEA/New/assets/app.css"
+      },
+      "assets/logo.svg": {
+        "sha256": "09453c1d1f9d9d9307831ba9518382d85cc1efe62d13c797807930e17ab75008",
+        "initialSource": "TEA/New/assets/logo.svg"
+      },
+      "assets/favicon.svg": {
+        "sha256": "1e7f39c2d9262f825c91b51b677343479d7ea2e2bfba44d9864519400a6999ca",
+        "initialSource": "TEA/New/assets/favicon.svg"
+      }
+    }
+  },
+  "roadLoad": {
+    "path": "vehickle_math_models/modules/road-load/index.mjs",
+    "sha256": "92ee32d42ce66cfb9261cb66f78d39adb78dfba880a7ad7f94aafe8e3a476910"
+  },
+  "cycleEnergy": {
+    "path": "vehickle_math_models/modules/automobile/cycle-energy.mjs",
+    "sha256": "1e616c8884c2e23baa77a0789b0554148ae5dbcf19fcb1eed47751ebb20dc2d7"
+  },
+  "busMotion": {
+    "path": "vehickle_math_models/modules/bus-motion/index.mjs",
+    "sha256": "581597b0782b6878d760fe389307dfb3b5e06732af1ea6a64e28c55df086e460"
+  },
+  "urbanBusReference": {
+    "path": "vehickle_math_models/data/cycles/urban-bus-data.mjs",
+    "sha256": "a432e781b7e385c89f9f7dfcdfb2e1a30a405ccc307cea082dc5760b7e1fdf2d"
+  },
+  "numeric": {
+    "path": "vehickle_math_models/modules/automobile/numeric.mjs",
+    "sha256": "31628351c7cd9b187b50ccb9b9a80c5e02c027a683794db3033dfad433b2d2f4"
+  },
+  "references": {
+    "path": "Automobile/new/Vehickle_calculations_assets/references.js",
+    "sha256": "205d1286782215400bf1abed0e2b86361bd0258b2dfb6130455fe54785db3037"
+  },
+  "vehicleInputs": {
+    "path": "vehickle_math_models/modules/automobile/chapter4-inputs.mjs",
+    "sha256": "43e60029f32eb27131a26694839a0e61081362c377a523a0985ef4dac40edb86"
+  },
+  "engineDesign": {
+    "path": "vehickle_math_models/modules/automobile/powertrain-design.mjs",
+    "sha256": "2ca6c96de7cc9efd04c1573b6f1f5849673923380f0abd959be560da743ee7a0"
+  },
+  "engineCharacteristics": {
+    "path": "vehickle_math_models/modules/automobile/traction-characteristic.mjs",
+    "sha256": "0c40b9c18b29821496526d0cb333aee790b42100f7aa141410a7a6a18bf7d5d9"
+  },
+  "efficiencyMaps": {
+    "path": "vehickle_math_models/modules/automobile/efficiency-maps.mjs",
+    "sha256": "673e26900eba72c03241219d4cd483112bfc4bf2521baf3095cb0c5f7779ec35"
+  },
+  "fuelEconomy": {
+    "path": "vehickle_math_models/modules/automobile/fuel-economy.mjs",
+    "sha256": "b8b3e9a4568c12fb615d2964d9908112a28a4304aaa9c0c43db451f7d1157a6e"
+  },
+  "tyres": {
+    "path": "Automobile/new/Vehickle_calculations_assets/tyre-catalog-data.js",
+    "sha256": "8ca33d78e378392785a2526e79303bb1f168a0275a5b88b3c27ee3b03759c9ee"
+  },
+  "serviceCosts": {
+    "path": "vehickle_math_models/modules/transport-service-cost/index.mjs",
+    "sha256": "32548df3922f749a794ba28b4892725f12b9e606a68ce7a709662b58b45a805f"
+  },
+  "demandVariation": {
+    "path": "vehickle_math_models/modules/transport-demand/index.mjs",
+    "sha256": "bbb6033d743b697ea1c427b9213f3bfab19b5de6bc8669577eadff37888aa457"
+  },
+  "operations": {
+    "path": "vehickle_math_models/modules/transport-operations/index.mjs",
+    "sha256": "86811b8b84d01db1f1d99a43a7779c6da1f8ec8a3856e0e32998d86b416f5b22"
+  },
+  "passengerMass": {
+    "path": "vehickle_math_models/modules/automobile/passenger-mass.mjs",
+    "sha256": "43a8748dad5bd29741494f43219b3b16e7e51ec760e24500754f7321a75766e1"
+  },
+  "fuelPresets": {
+    "path": "Engine_motor/ICE/Data/fuel-presets.csv",
+    "sha256": "56c67a348f21aee4d2fa42a709f474ae17b6daab7f9c983993afe92374100437"
+  },
+  "icon": {
+    "owner": "TEA/New/assets/favicon.svg",
+    "derived": "CEA/web/assets/favicon.svg",
+    "change": "CEA brown centreline",
+    "sha256": "48ac4c9702c76f73875b279583f7f9bbc49b6d1c5a8081c95e03ee0d491b3c5a"
+  }
+}

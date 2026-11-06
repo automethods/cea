@@ -1,0 +1,13 @@
+{
+  "owner": "Home_page",
+  "sourceVariant": "blue",
+  "variant": "yellow",
+  "appearance": "CEA body-paint shader; original glazing, tyres and lamps",
+  "purpose": "Illustrative bus; native hazard lamps",
+  "sourceHashes": {
+    "Home_page/dist/models/commercial-fleet.glb": "58d42cf08a2c0b526f4fd4662d959f354c59c49ee3003f781bf793e2accf46ec",
+    "Home_page/dist/bus-lights.js": "183f64779fe42bd8288e24479f364386cf4ba653cfb4189a2210f31605323666",
+    "Home_page/node_modules/three/package.json": "36decc507ff2d53321e599db7d99f9c0e90b88a63802c2d53772e2159e582e2a",
+    "CEA/web/bus-preview.js": "ec6374ce59a041c623758b181747f8ac0d7eeb86e201940cdd0d5390dcb28e04"
+  }
+}

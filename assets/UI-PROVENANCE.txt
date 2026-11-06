@@ -1,0 +1,1 @@
+Shared GUI owner: My_books/shared-ui. Initial extraction: TEA/New MyBooks shell and institution SVG assets. Project palette/content: CEA/web.

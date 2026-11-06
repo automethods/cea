@@ -1,0 +1,90 @@
+{
+  "owner": "Automobile/new/Vehickle_calculations_assets/catalog.js",
+  "sha256": "c0b721d67485fabaf39d56b2d4c0ef6b8602c74c89ec1f0a259194d949ec6b18",
+  "surfaces": [
+    {
+      "id": "asphalt-good",
+      "label": "Сухий рівний асфальтобетон",
+      "f0": 0.012,
+      "fullDrive": false,
+      "hint": "Довідкове значення 0,012 для asphalt concrete; діапазон 0,01…0,02 за таблицею 4 Бирулі.",
+      "source": "FHWA, Suggested values for rolling resistance, table 2",
+      "sourceRef": "fhwa",
+      "url": "https://rosap.ntl.bts.gov/view/dot/74695/dot_74695_DS1.pdf",
+      "f0Range": {
+        "min": 0.01,
+        "max": 0.02,
+        "kind": "reference",
+        "meaning": "діапазон значень, який джерело подає для цього роду покриття",
+        "conditions": "рід покриття за таблицею — «Асфальтобетонное и цементобетонное»",
+        "source": "А. К. Бируля, «Проектирование автомобильных дорог, часть 1», таблиця 4 «Коэффициент сопротивления качению», с. 44",
+        "sourceRef": "birulya",
+        "locator": "Literature/Transport/Roads/birulia_ak_proektirovanie_avtomobilnykh_dorog_chast1.pdf, с. 44",
+        "corroboration": "виміряний розкид 0,0089…0,0141 на асфальтобетоні за Методика та обладнання для дослідження коефіцієнта опору кочення автомобільних шин, розділ «Загальні висновки та рекомендації», пункти 3 і 4: розкид за моделлю шини та тиском накачування на одному й тому ж покритті. Умови: рівна ділянка дороги з асфальтобетонним покриттям (промислова зона м. Львів); метод вибігу за швидкостей 10, 15 і 20 км/год, тяговий пристрій за швидкості до 5 км/год. Шини: Dunlop SP Sport BluResponse 91T 195/65 R15 і Kleber Krisalp HP3 91T 195/65 R15 за 0,25 і 0,20 МПа; Sava Perfecta 82T 175/70 R13 і Cordiant Road Runner PS-1 175/70 R13 за 0,20 МПа. Нижня межа 0,0089 лежить нижче за нижню межу таблиці 4, тому як значення діапазону вона не пропонується. Файл: Data/Data sources/f0_opir kochenny.pdf",
+        "corroborationRef": "rolling-resistance-lviv"
+      }
+    },
+    {
+      "id": "asphalt-worn",
+      "label": "Асфальт, зношений або нерівний",
+      "f0": 0.02,
+      "fullDrive": false,
+      "hint": "Навчальне значення 0,020 із прикладу методики; фактичне значення залежить від шин, текстури й нерівності.",
+      "source": "Навчальний приклад f₀=0,020; VTI MIRIAM SP1 D.4",
+      "sourceRef": "vti-miriam",
+      "url": "https://vti.diva-portal.org/smash/record.jsf?pid=diva2%3A1505237",
+      "f0Range": null
+    },
+    {
+      "id": "black-macadam-highway",
+      "label": "Чорне щебеневе шосе з рівною поверхнею",
+      "f0": 0.025,
+      "fullDrive": false,
+      "hint": "Діапазон 0,02…0,025 за таблицею 4 Бирулі. Типовим прийнято верхню межу 0,025: заниження опору дороги — небезпечний бік тягового розрахунку. Середини діапазону джерело не подає, тому вона не обчислюється; у межах діапазону значення обирає користувач.",
+      "source": "А. К. Бируля, «Проектирование автомобильных дорог, часть 1», таблиця 4 «Коэффициент сопротивления качению», с. 44",
+      "sourceRef": "birulya",
+      "url": "",
+      "f0Range": {
+        "min": 0.02,
+        "max": 0.025,
+        "kind": "reference",
+        "meaning": "діапазон значень, який джерело подає для цього роду покриття",
+        "conditions": "рід покриття за таблицею — «Чёрное щебёночное шоссе с ровной поверхностью»",
+        "source": "А. К. Бируля, «Проектирование автомобильных дорог, часть 1», таблиця 4 «Коэффициент сопротивления качению», с. 44",
+        "sourceRef": "birulya",
+        "locator": "Literature/Transport/Roads/birulia_ak_proektirovanie_avtomobilnykh_dorog_chast1.pdf, с. 44"
+      }
+    },
+    {
+      "id": "cobblestone",
+      "label": "Бруківка",
+      "f0": 0.05,
+      "fullDrive": false,
+      "hint": "Діапазон 0,04…0,05 за таблицею 4 Бирулі. Типовим прийнято верхню межу 0,05: заниження опору дороги — небезпечний бік тягового розрахунку. Середини діапазону джерело не подає, тому вона не обчислюється; у межах діапазону значення обирає користувач.",
+      "source": "А. К. Бируля, «Проектирование автомобильных дорог, часть 1», таблиця 4 «Коэффициент сопротивления качению», с. 44",
+      "sourceRef": "birulya",
+      "url": "",
+      "f0Range": {
+        "min": 0.04,
+        "max": 0.05,
+        "kind": "reference",
+        "meaning": "діапазон значень, який джерело подає для цього роду покриття",
+        "conditions": "рід покриття за таблицею — «Булыжная мостовая»",
+        "source": "А. К. Бируля, «Проектирование автомобильных дорог, часть 1», таблиця 4 «Коэффициент сопротивления качению», с. 44",
+        "sourceRef": "birulya",
+        "locator": "Literature/Transport/Roads/birulia_ak_proektirovanie_avtomobilnykh_dorog_chast1.pdf, с. 44"
+      }
+    },
+    {
+      "id": "gravel-compacted",
+      "label": "Ущільнений гравій",
+      "f0": 0.015,
+      "fullDrive": false,
+      "hint": "Довідкове значення 0,015 для compacted gravel.",
+      "source": "FHWA, Suggested values for rolling resistance, table 2",
+      "sourceRef": "fhwa",
+      "url": "https://rosap.ntl.bts.gov/view/dot/74695/dot_74695_DS1.pdf",
+      "f0Range": null
+    }
+  ]
+}
