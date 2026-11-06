@@ -85,6 +85,10 @@
     "path": "Engine_motor/ICE/Data/fuel-presets.csv",
     "sha256": "56c67a348f21aee4d2fa42a709f474ae17b6daab7f9c983993afe92374100437"
   },
+  "languagePreference": {
+    "path": "Home_page/dist/language.js",
+    "sha256": "95b529b917d674193294c7123de91bdb9404e59b5e32468ecc6a84e422edff42"
+  },
   "icon": {
     "owner": "TEA/New/assets/favicon.svg",
     "derived": "CEA/web/assets/favicon.svg",

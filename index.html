@@ -6,8 +6,10 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="KEA: моделювання пасажирських перевезень, витрат енергії, складу автопарку та експлуатаційних параметрів.">
   <title>CEA – Commercial Vehicle Operation</title>
+  <script src="assets/language.js?v=95b529b917d6"></script>
+  <script src="/api/language.js"></script>
   <link rel="icon" href="assets/favicon.svg?v=48ac4c9702c7" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/leaflet.css?v=a78371028241"><link rel="stylesheet" href="assets/mybooks.css?v=f0d575caea80"><link rel="stylesheet" href="assets/cea.css?v=8cb3befa8ea3">
+  <link rel="stylesheet" href="assets/leaflet.css?v=a78371028241"><link rel="stylesheet" href="assets/mybooks.css?v=f0d575caea80"><link rel="stylesheet" href="assets/cea.css?v=4bcbaa1d3462">
 </head>
 <body>
 <a class="skip-link" href="#content">До розрахунку</a>
@@ -28,10 +30,10 @@
       <a href="#sources"><b>6</b>Методика й припущення</a>
       <a href="#references"><b>7</b>Список використаної літератури</a>
     </nav>
-    <p class="sidebar-note">Спільний каталог MyBooks.<br>Власні сценарії KEA.<br>Навчальний прототип 0.15.12.</p>
+    <p class="sidebar-note">Спільний каталог MyBooks.<br>Власні сценарії KEA.<br>Навчальний прототип 0.15.13.</p>
   </aside>
   <main class="main">
-    <header class="topbar"><a href="/">← AutoMethods</a><span id="save-status" role="status">Завантаження спільних даних…</span><span>KEA <b>0.15.12</b></span></header>
+    <header class="topbar"><a href="/">← AutoMethods</a><span id="save-status" role="status">Завантаження спільних даних…</span><div class="language-controls" role="group" aria-label="Мова інтерфейсу"><button class="button" data-language="en" aria-pressed="false">EN</button><button class="button" data-language="uk" aria-pressed="true">Українська</button></div><span>KEA <b>0.15.13</b></span></header>
     <p class="publication-access"><span id="access-notice" role="status">Перевіряємо обліковий запис…</span> <a id="account-link" href="/?account=signin" hidden>Увійти</a></p>
     <div class="action-row project-actions" hidden>
       <button class="button" id="real-example">Житомир · автобус 53</button>
@@ -56,6 +58,6 @@
 <dialog id="route-dialog" aria-labelledby="route-import-title"><h2 id="route-import-title">Завантаження існуючого маршруту</h2><div id="route-import-body"></div><div class="action-row"><button class="button" id="cancel-route">Скасувати</button><button class="button button-primary" id="apply-route">Завантажити маршрут</button></div></dialog>
 <dialog id="refresh-dialog" aria-labelledby="refresh-title"><h2 id="refresh-title">Оновлення спільних даних</h2><div id="refresh-body"></div><div class="action-row"><button class="button" id="cancel-refresh">Залишити збережені дані</button><button class="button button-primary" id="apply-refresh">Застосувати переглянуте оновлення</button></div></dialog>
 <div id="toast" role="status" hidden></div>
-<script type="module" src="assets/app.js?v=5ab0ae92892e"></script>
+<script type="module" src="assets/app.js?v=bf0aee81a95d"></script>
 </body>
 </html>

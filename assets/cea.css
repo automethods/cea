@@ -343,4 +343,6 @@ html.calculation-busy,html.calculation-busy *{cursor:wait!important}
 
 @media print{.source-concurrency-chart>.series-legend{flex-direction:row;flex-wrap:wrap;gap:8px 20px}}
 
+.language-controls{display:flex;gap:5px;flex-shrink:0}.language-controls .button{padding:6px 9px;font-size:12px}.language-controls [aria-pressed="true"]{background:var(--accent);color:white}@media(max-width:600px){.topbar{flex-wrap:wrap}.language-controls{margin-inline-start:auto}}@media print{.language-controls{display:none!important}}
+
 .publication-access{margin:0 0 1rem;padding:.7rem 1rem;border:1px solid #c5b8a8;border-radius:.5rem}.publication-access a{margin-inline-start:.5rem}body[data-access="readonly"] [data-lock-hint]{display:none}@media print{body[data-access="readonly"] .app-shell{display:none!important}.publication-access{display:none}}
